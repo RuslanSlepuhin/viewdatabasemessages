@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from .models import Telegram
+from .models import Telegram, NewYork
 
 
 class GetAllMessagesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Telegram
+        model = NewYork
         fields = [
             'chat_name',
             'title',

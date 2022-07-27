@@ -80,16 +80,16 @@ WSGI_APPLICATION = 'telegramchannels.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dbrlhciosu6jn6',
-        'USER': 'lerwnlqcuwkqeo',
-        'PASSWORD': '84b80406e8da8632af4d26ca70d4378a8d7eccedee37d8a531bcda6f83e291dc',
-        'HOST': 'ec2-52-208-164-5.eu-west-1.compute.amazonaws.com',
-        'PORT': '5432'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dbrlhciosu6jn6',
+#         'USER': 'lerwnlqcuwkqeo',
+#         'PASSWORD': '84b80406e8da8632af4d26ca70d4378a8d7eccedee37d8a531bcda6f83e291dc',
+#         'HOST': 'ec2-52-208-164-5.eu-west-1.compute.amazonaws.com',
+#         'PORT': '5432'
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
@@ -101,6 +101,17 @@ DATABASES = {
 #         'PORT': '5432'
 #     }
 # }
+
+DATABASES = {  #db1902
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dc04j4nt0ap2b4',
+        'USER': 'ukkqkanaktopdz',
+        'PASSWORD': '829aa9cd879969aad6a71422e636b5c6f4e023c9a977c4196007e2a3cfaad3b0',
+        'HOST': 'ec2-54-228-218-84.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
+    }
+}
 
 
 # Password validation
