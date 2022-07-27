@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'telegramchannels.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'decoo131rnacfl',
-        'USER': 'sjaxqxvmfdeslz',
-        'PASSWORD': '8efe749c120bff33faa9e5e7c99b264b2b81b1bc1e1e2546a80c9b154afedc2a',
-        'HOST': 'ec2-54-228-125-183.eu-west-1.compute.amazonaws.com',
+        'NAME': 'dbrlhciosu6jn6',
+        'USER': 'lerwnlqcuwkqeo',
+        'PASSWORD': '84b80406e8da8632af4d26ca70d4378a8d7eccedee37d8a531bcda6f83e291dc',
+        'HOST': 'ec2-52-208-164-5.eu-west-1.compute.amazonaws.com',
         'PORT': '5432'
     }
 }
