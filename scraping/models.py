@@ -11,8 +11,7 @@ class Telegram(models.Model):
     class Meta:
         managed = False
         db_table = 'telegram'
-        verbose_name = 'Сообщение'
-        verbose_name_plural = 'Сообщения'
+
 
     def __str__(self):
         self.view = f'{self.time_of_public} | {self.title}'
