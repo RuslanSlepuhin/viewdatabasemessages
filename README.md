@@ -1,1 +1,4 @@
-# viewdatabasemessages
+master/
+
+Работает на фреймворке Django REST
+Забирает из DB PostgreSQL сообщения из телеграм каналов, записанные парсером на библиотеке Telethon
