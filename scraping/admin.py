@@ -1,6 +1,7 @@
 from django.contrib import admin
 
-from .models import Telegram, NewYork
+from .models import Channels, Participant, TelegramChannelsProfessions
 
-admin.site.register(Telegram)
-admin.site.register(NewYork)
+admin.site.register(Channels)
+admin.site.register(Participant)
+admin.site.register(TelegramChannelsProfessions)

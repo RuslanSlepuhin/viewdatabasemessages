@@ -1,14 +1,18 @@
 from rest_framework import serializers
 
-from .models import Telegram, NewYork
+from .models import Channels, Participant, TelegramChannelsProfessions
 
+class GetAllChannelsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Channels
+        fields = '__all__'
+
+class GetAllUsersSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Participant
+        fields = '__all__'
 
 class GetAllMessagesSerializer(serializers.ModelSerializer):
     class Meta:
-        model = NewYork
-        fields = [
-            'chat_name',
-            'title',
-            'body',
-            'time_of_public'
-            ]
+        model = TelegramChannelsProfessions
+        fields = '__all__'
