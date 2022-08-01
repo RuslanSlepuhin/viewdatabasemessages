@@ -83,18 +83,7 @@ WSGI_APPLICATION = 'telegramchannels.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'dbrlhciosu6jn6',
-#         'USER': 'lerwnlqcuwkqeo',
-#         'PASSWORD': '84b80406e8da8632af4d26ca70d4378a8d7eccedee37d8a531bcda6f83e291dc',
-#         'HOST': 'ec2-52-208-164-5.eu-west-1.compute.amazonaws.com',
-#         'PORT': '5432'
-#     }
-# }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'ttt',
+#         'NAME': 'parsing',
 #         'USER': 'ruslan',
 #         'PASSWORD': '12345',
 #         'HOST': '127.0.0.1',
@@ -102,13 +91,14 @@ WSGI_APPLICATION = 'telegramchannels.wsgi.application'
 #     }
 # }
 
-DATABASES = {  #db1902
+
+DATABASES = {  # oms.ruslan heroku
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dc04j4nt0ap2b4',
-        'USER': 'ukkqkanaktopdz',
-        'PASSWORD': '829aa9cd879969aad6a71422e636b5c6f4e023c9a977c4196007e2a3cfaad3b0',
-        'HOST': 'ec2-54-228-218-84.eu-west-1.compute.amazonaws.com',
+        'NAME': 'd4dqeg8qo0du8k',
+        'USER': 'xglujabptljdbg',
+        'PASSWORD': '8b18a138aa6e0334f3d436bdd91c7895ba19cbf8279d50453a569df59f0a7139',
+        'HOST': 'ec2-34-253-119-24.eu-west-1.compute.amazonaws.com',
         'PORT': '5432'
     }
 }
