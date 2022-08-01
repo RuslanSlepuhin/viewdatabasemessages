@@ -9,7 +9,7 @@ class GetAllChannelsView(viewsets.ModelViewSet):
     serializer_class = GetAllChannelsSerializer
 
 class GetAllUsersView(viewsets.ModelViewSet):
-    queryset = Participant.objects.all()
+    queryset = Participant.objects.all().order_by('-id')
     serializer_class = GetAllUsersSerializer
 
 class GetAllMessagesView(viewsets.ModelViewSet):
